@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 function addCar(newCar) {
-    fetch('/api/message/cars', {
+    fetch('/api/message', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
