@@ -16,10 +16,6 @@ module.exports = async function (context, req) {
             break;
         default:
             await getCars(context);
-            //context.res = {
-            //    status: 405,
-            //    body: 'Method Not Allowed'
-            //};
             break;
     }
 };
